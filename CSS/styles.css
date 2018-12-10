@@ -1,0 +1,42 @@
+#wrapper {
+  width: 960px;
+  margin: auto;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.navbar .dropdown-menu .form-control {
+    width: 200px;
+}
+
+body{
+    margin:10px;
+    background-image: url(imagez/sexyDBZheader.jpg);
+    width: 100%;
+
+}
+
+body, .page-wrapper:before, .page-wrapper:after {
+    background: url('imagez/sexyDBZheader.jpg') no-repeat fixed 50% top;
+}
+.page-wrapper, .intro:after, .supporting div, .supporting footer {
+    background: url('sexyDBZheader.jpg') no-repeat fixed 50% top;
+}
+
+h1 {
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Baloo Da', cursive;
+    font-size: 75px;
+    text-transform: uppercase;
+    margin-top: 500px;
+    margin-bottom: 5px;
+    margin-left: 80px;
+}
+
+#loginFormDropdown {
+  width: 300px;
+}
